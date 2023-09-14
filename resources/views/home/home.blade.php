@@ -445,86 +445,7 @@
     </section>
     <!-- End Overview Section -->
 
-    <!-- Start Team Section -->
-    <!--<section class="team-area pb-100">-->
-    <!--    <div class="container">-->
-    <!--        <div class="row">-->
-    <!--            <div class="col-md-12">-->
-    <!--                <div class="section-title">-->
-    <!--                    <h6>Team Member</h6>-->
-    <!--                    <h2>Expert Team</h2>-->
-    <!--                </div>-->
-    <!--            </div>-->
 
-
-    <!--            <div class="col-lg-3 col-md-6">-->
-    <!--                <div class="single-team-box">-->
-    <!--                    <div class="team-image">-->
-    <!--                        <img src="{{asset('frontEnd/img/team/nissan.jpg')}}" alt="team" />-->
-    <!--                        <div class="team-social-icon">-->
-    <!--                            <a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>-->
-    <!--                            <a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>-->
-    <!--                            <a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="team-info">-->
-    <!--                        <h3>Md Nimul Islam</h3>-->
-    <!--                        <span>Founder, CEO</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="col-lg-3 col-md-6">-->
-    <!--                <div class="single-team-box">-->
-    <!--                    <div class="team-image">-->
-    <!--                        <img src="{{asset('frontEnd/img/team/MM.jpg')}}" alt="team" />-->
-    <!--                        <div class="team-social-icon">-->
-    <!--                            <a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>-->
-    <!--                            <a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>-->
-    <!--                            <a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="team-info">-->
-    <!--                        <h3>Mrinmoy Mondol</h3>-->
-    <!--                        <span>IT Manager</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="col-lg-3 col-md-6">-->
-    <!--                <div class="single-team-box">-->
-    <!--                    <div class="team-image">-->
-    <!--                        <img src="{{asset('frontEnd/img/team/dipu.jpg')}}" alt="team" />-->
-    <!--                        <div class="team-social-icon">-->
-    <!--                            <a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>-->
-    <!--                            <a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>-->
-    <!--                            <a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="team-info">-->
-    <!--                        <h3>Md Oadud Hossain</h3>-->
-    <!--                        <span>Marketing Manager</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="col-lg-3 col-md-6">-->
-    <!--                <div class="single-team-box">-->
-    <!--                    <div class="team-image">-->
-    <!--                        <img src="{{asset('frontEnd/img/team/jubayer.jpg')}}" alt="team" />-->
-    <!--                        <div class="team-social-icon">-->
-    <!--                            <a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>-->
-    <!--                            <a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>-->
-    <!--                            <a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="team-info">-->
-    <!--                        <h3>Jobair Bin Alam</h3>-->
-    <!--                        <span> Software Developer</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
-    <!-- End Team Section -->
 
     <!-- Start Hire Section -->
     <section class="hire-section">
@@ -551,6 +472,86 @@
         </div>
     </section>
     <!-- End Hire Section -->
+
+
+
+    {{-- Pricing Section --}}
+
+    <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable">
+                        <h3 class="title">STANDARD</h3>
+                        <div class="price-value">
+                            <span class="currency">$</span>
+                            <span class="amount">10.00</span>
+                            <span class="month">/month</span>
+                        </div>
+                        <ul class="pricing-content">
+                            <li><b>50GB</b> Disk Space</li>
+                            <li><b>50</b> Email Accounts</li>
+                            <li><b>50GB</b> Bandwidth</li>
+                            <li><b>10</b> Subdomains</li>
+                            <li><b>15</b> Domains</li>
+                        </ul>
+                        <a href="#" class="pricingTable-signup">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable pink">
+                        <h3 class="title">BUSINESS</h3>
+                        <div class="price-value">
+                            <span class="currency">$</span>
+                            <span class="amount">20.00</span>
+                            <span class="month">/month</span>
+                        </div>
+                        <ul class="pricing-content">
+                            <li><b>60GB</b> Disk Space</li>
+                            <li><b>60</b> Email Accounts</li>
+                            <li><b>60GB</b> Bandwidth</li>
+                            <li><b>15</b> Subdomains</li>
+                            <li><b>20</b> Domains</li>
+                        </ul>
+                        <a href="#" class="pricingTable-signup">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable blue">
+                        <h3 class="title">PREMIUM</h3>
+                        <div class="price-value">
+                            <span class="currency">$</span>
+                            <span class="amount">30.00</span>
+                            <span class="month">/month</span>
+                        </div>
+                        <ul class="pricing-content">
+                            <li><b>70GB</b> Disk Space</li>
+                            <li><b>70</b> Email Accounts</li>
+                            <li><b>70GB</b> Bandwidth</li>
+                            <li><b>20</b> Subdomains</li>
+                            <li><b>25</b> Domains</li>
+                        </ul>
+                        <a href="#" class="pricingTable-signup">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- End Pricing Section --}}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Start Testimonial Section -->
     <section class="testimonial-section section-padding">
