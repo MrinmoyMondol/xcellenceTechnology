@@ -476,12 +476,18 @@
 
 
     {{-- Pricing Section --}}
+    <section class="pricing-section section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h6>Pricing</h6>
+                <h2> Our Packages</h2>
+            </div>
 
-    <div class="demo">
+        <div class="demo">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable">
+                    <div class="pricingTable green">
                         <h3 class="title">STANDARD</h3>
                         <div class="price-value">
                             <span class="currency">BDT</span>
@@ -523,18 +529,10 @@
         </div>
     </div>
 
+        </div>
+    </section>
+
     {{-- End Pricing Section --}}
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -4812,6 +4812,7 @@ button.primary.ghost {
 
 /* Pricing Section Css */
 
+
 .demo {
     padding: 30px 0
 }
@@ -5022,4 +5023,65 @@ a {
 }
 
 
+.blue{
+    box-shadow: 2px 2px 13px 2px #49B0CA;
+}
+.green{
+    box-shadow: 2px 2px 13px 2px #1DAA72;
+}
+
+.pink{
+    box-shadow: 2px 2px 13px 2px #F06ACE;
+}
+
 /* PricingSection End */
+
+
+/*Get IT Touch*/
+
+
+.support_form .form-group {
+    margin-bottom: 30px;
+}
+
+.support_form form .form-control {
+    background-color: #ffffff;
+    border: none;
+    height: 55px;
+    font-size: 15px;
+    border-left: 3px solid #7b68ee;
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 30px 0px rgba(148, 146, 245, 0.15);
+}
+
+.support_form form .form-control:focus {
+    border-left: 3px solid #7b68ee;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.support_form form textarea.form-control {
+    height: auto;
+    padding-top: 15px;
+    line-height: initial;
+}
+
+.support_form form .btn {
+    margin-top: 8px;
+    -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+}
+
+.support_form form .help-block ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.support_form form .help-block ul li {
+    color: red;
+    font-weight: 400;
+}
+
+/*End Get Support*/

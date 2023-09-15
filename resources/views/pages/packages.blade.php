@@ -29,19 +29,24 @@
     <!-- Start About Section -->
     <section class="about-area section-padding">
 
+        <div class="section-title ">
+            <h6>Pricing</h6>
+            <h2>Our Packages</h2>
+
+        </div>
 
         <div class="demo">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
-                        <div class="pricingTable">
+                        <div class="pricingTable green">
                             <h3 class="title">STANDARD</h3>
                             <div class="price-value">
                                 <span class="currency">BDT</span>
                                 <span class="amount">00.00</span>
 
                             </div>
-                            <ul class="pricing-content">
+                            <ul class="pricing-content ">
 
                                     <li>
                                         <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Upto 2 Pages </span>
