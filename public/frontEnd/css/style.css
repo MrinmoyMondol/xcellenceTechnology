@@ -4937,7 +4937,8 @@ a {
 .pricingTable .pricing-content li {
     font-size: 17px;
     color: #8f8f8f;
-    line-height: 55px
+    line-height: 50px;
+    text-align: left;
 }
 
 .pricingTable .pricingTable-signup {
@@ -5005,6 +5006,19 @@ a {
     .pricingTable {
         margin-bottom: 30px
     }
+}
+
+
+.standard_icon{
+    color: #1DAA72;
+}
+
+.business_icon{
+    color: #EE69CC;
+}
+
+.premium_icon{
+    color: #48ADC7;
 }
 
 

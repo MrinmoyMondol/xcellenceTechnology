@@ -484,54 +484,39 @@
                     <div class="pricingTable">
                         <h3 class="title">STANDARD</h3>
                         <div class="price-value">
-                            <span class="currency">$</span>
-                            <span class="amount">10.00</span>
-                            <span class="month">/month</span>
+                            <span class="currency">BDT</span>
+                            <span class="amount">00.00</span>
+
                         </div>
-                        <ul class="pricing-content">
-                            <li><b>50GB</b> Disk Space</li>
-                            <li><b>50</b> Email Accounts</li>
-                            <li><b>50GB</b> Bandwidth</li>
-                            <li><b>10</b> Subdomains</li>
-                            <li><b>15</b> Domains</li>
-                        </ul>
-                        <a href="#" class="pricingTable-signup">Order Now</a>
+
+                        <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence  </b>   </p>
+
+                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="pricingTable pink">
                         <h3 class="title">BUSINESS</h3>
                         <div class="price-value">
-                            <span class="currency">$</span>
-                            <span class="amount">20.00</span>
-                            <span class="month">/month</span>
+                            <span class="currency">BDT</span>
+                            <span class="amount">00.00</span>
+
                         </div>
-                        <ul class="pricing-content">
-                            <li><b>60GB</b> Disk Space</li>
-                            <li><b>60</b> Email Accounts</li>
-                            <li><b>60GB</b> Bandwidth</li>
-                            <li><b>15</b> Subdomains</li>
-                            <li><b>20</b> Domains</li>
-                        </ul>
-                        <a href="#" class="pricingTable-signup">Order Now</a>
+                        <p class="pricing-content"><b>  Best fit for established business or organizations who has a lot to offer and share </b> </p>
+
+                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="pricingTable blue">
                         <h3 class="title">PREMIUM</h3>
                         <div class="price-value">
-                            <span class="currency">$</span>
-                            <span class="amount">30.00</span>
-                            <span class="month">/month</span>
+                            <span class="currency">BDT</span>
+                            <span class="amount">00.00</span>
+
                         </div>
-                        <ul class="pricing-content">
-                            <li><b>70GB</b> Disk Space</li>
-                            <li><b>70</b> Email Accounts</li>
-                            <li><b>70GB</b> Bandwidth</li>
-                            <li><b>20</b> Subdomains</li>
-                            <li><b>25</b> Domains</li>
-                        </ul>
-                        <a href="#" class="pricingTable-signup">Order Now</a>
+                       <p class="pricing-content"> <b>  Start your business online </b> </p>
+                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More </a>
                     </div>
                 </div>
             </div>
