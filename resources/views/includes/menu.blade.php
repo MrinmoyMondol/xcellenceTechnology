@@ -66,6 +66,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a href="{{ route('pricing') }}" class="nav-link">Pricing </a>
+                        </li>
+
+                        <li class="nav-item">
                             <a href="{{ route('testimonial') }}" class="nav-link">Testimonial </a>
 
                         </li>
