@@ -31,7 +31,7 @@ class WelcomeController extends Controller
         ]);
     }
 
-    //Testimonial Page Function
+    //Pricing Page Function
     public function pricing(){
         return view('pages.packages');
     }
