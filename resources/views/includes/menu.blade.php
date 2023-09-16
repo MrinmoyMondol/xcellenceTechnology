@@ -61,7 +61,6 @@
                         </li>
 
                         <li class="nav-item">
-
                             <a href="" class="nav-link">Products <i class="fas fa-chevron-down"></i> </a>
 
                             <ul class="dropdown-menu">
@@ -71,11 +70,7 @@
                                 <li class="nav-item">
                                     <a href="{{ route('allSample') }}" class="nav-link">All Samples</a>
                                 </li>
-
-
                             </ul>
-
-
                         </li>
 
                         <li class="nav-item">

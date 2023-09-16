@@ -17,7 +17,7 @@
                 <!-- Logo text --><span>
 
                     <!-- Light Logo text -->
-                         <img src="{{asset('dashboard_asset/assets/images/11.png')}}" class="light-logo" alt="homepage" width="200px" height="50px"/></span> </a>
+                         <img src="{{asset('dashboard_asset/assets/images/logo-black.png')}}" class="light-logo" alt="homepage" width="200px" height="50px"/></span> </a>
         </div>
         <!-- ============================================================== -->
         <!-- End Logo -->

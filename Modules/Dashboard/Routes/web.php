@@ -14,6 +14,7 @@
 use Modules\Dashboard\Http\Controllers\AdminController;
 use Modules\Dashboard\Http\Controllers\ClientController;
 use Modules\Dashboard\Http\Controllers\DashboardController;
+use Modules\Dashboard\Http\Controllers\SampleController;
 use Modules\Dashboard\Http\Controllers\TestimonialController;
 
 Route::prefix('dashboard')->group(function() {
@@ -62,5 +63,9 @@ Route::prefix('dashboard')->group(function() {
     Route::get('/members/list', [AdminController::class, 'memberList'])->name('dashboard.members');
     Route::post('/registration', [AdminController::class, 'registration'])->name('dashboard.registration');
     Route::get('/member/view/{id}', [AdminController::class, 'detailsMember'])->name('dashboard.viewMember');
+
+
+    //All Sample Route List
+    Route::get('/member/list', [SampleController::class, 'index'])->name('dashboard.sampleList');
 
 });
