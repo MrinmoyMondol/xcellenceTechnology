@@ -11,5 +11,11 @@ class ProductsController extends Controller
         return view('pages.products.webProject');
     }
 
+    //Sample Page Function
+    public function sample(){
+        return view('pages.products.allSample');
+    }
+
+
 
 }

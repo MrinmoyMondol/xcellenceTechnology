@@ -12,10 +12,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2> Our Projects </h2>
+                        <h2> Our Works </h2>
                         <ul>
                             <li><a href="{{route('welcomePage')}}">Home</a></li>
-                            <li> Our Projects </li>
+                            <li> Our Works </li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="section-title">
                         <h6>Recent Works</h6>
-                        <h2>Our Portfolio</h2>
+                        <h2>Our Rorks</h2>
                     </div>
                 </div>
             </div>

@@ -49,6 +49,9 @@ Route::get('/testimonial',[WelcomeController::class, 'testimonial'])->name('test
 //Pricing Page Route
 Route::get('/pricing',[WelcomeController::class, 'pricing'])->name('pricing');
 
+//All Sample  Page Route
+Route::get('/allSample',[ProductsController::class, 'sample'])->name('allSample');
+
 //Get IT Support
 Route::get('/getSupport',[SupportController::class, 'getSupport'])->name('getItSupport');
 Route::post('/getSupport/send',[SupportController::class, 'sendQuotes'])->name('sendQuotes');
