@@ -12,8 +12,8 @@
                             <h3>About Us</h3>
                         </div>
                         <p class="text-justify">
-                           Xcellence Technology is the partner of choice for many of the world’s leading enterprises, SMEs, and technology challengers. We help businesses elevate their value through Virtual Assistants, 
-                           custom website development, Software Quality Assurance, Project Management, and consultancy services. 
+                           Xcellence Technology is the partner of choice for many of the world’s leading enterprises, SMEs, and technology challengers. We help businesses elevate their value through Virtual Assistants,
+                           custom website development, Software Quality Assurance, Project Management, and consultancy services.
                            We can help to maintain and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.
 
                         </p>
@@ -130,9 +130,9 @@
             </div>
             <div class="col-lg-6 col-md-6">
                 <ul>
-                    <li> <a href="terms-condition.html">Terms & Conditions</a>
+                    <li> <a href="">Terms & Conditions</a>
                     </li>
-                    <li> <a href="privacy-policy.html">Privacy Policy</a>
+                    <li> <a href="">Privacy Policy</a>
                     </li>
                 </ul>
             </div>

@@ -67,5 +67,6 @@ Route::prefix('dashboard')->group(function() {
 
     //All Sample Route List
     Route::get('/member/list', [SampleController::class, 'index'])->name('dashboard.sampleList');
+    Route::post('/member/add', [SampleController::class, 'store'])->name('dashboard.addSample');
 
 });

@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('samples', function (Blueprint $table) {
             $table->id();
+            $table->string('sample_code');
+            $table->text('sample_file');
+            $table->text('description')->nullable();
 
             $table->timestamps();
         });
