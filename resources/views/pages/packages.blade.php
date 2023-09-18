@@ -88,7 +88,7 @@
                                     </li>
                             </ul>
 
-                             <a href="{{ route('pricing') }}" class="pricingTable-signup">Order Now</a>
+                             <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now</a>
 
                             <p>T&C Apply</p>
                         </div>
@@ -143,7 +143,7 @@
                                     </li>
                             </ul>
 
-                             <a href="{{ route('pricing') }}" class="pricingTable-signup">Order Now</a>
+                             <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now</a>
 
                             <p>T&C Apply</p>
                         </div>
@@ -215,7 +215,7 @@
                                 </li>
                             </ul>
 
-                            <a href="{{ route('pricing') }}" class="pricingTable-signup">Order Now </a>
+                            <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now </a>
 
                             <p>T&C Apply</p>
                         </div>
@@ -291,7 +291,7 @@
                             </ul>
 
 
-                            <a href="{{ route('pricing') }}" class="pricingTable-signup">Order Now</a>
+                            <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now</a>
 
                             <p>T&C Apply</p>
                         </div>

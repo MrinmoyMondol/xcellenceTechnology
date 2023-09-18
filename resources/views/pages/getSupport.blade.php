@@ -78,19 +78,19 @@
                                             </div>
 
                                             <div class="form-check">
-                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Offer">
+                                                <input type="radio" name="package" class="form-check-input" id="exampleCheck1" value="Offer">
                                                 <label class="form-check-label" for="exampleCheck1">Offer</label>
                                             </div>
                                             <div class="form-check">
-                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Standard">
+                                                <input type="radio" name="package" class="form-check-input" id="exampleCheck1" value="Standard">
                                                 <label class="form-check-label" for="exampleCheck1">Standard</label>
                                             </div>
                                             <div class="form-check">
-                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Business">
+                                                <input type="radio" name="package" class="form-check-input" id="exampleCheck1" value="Business">
                                                 <label class="form-check-label" for="exampleCheck1">Business</label>
                                             </div>
                                             <div class="form-check">
-                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Premium">
+                                                <input type="radio" name="package" class="form-check-input" id="exampleCheck1" value="Premium">
                                                 <label class="form-check-label" for="exampleCheck1">Premium</label>
                                             </div>
 
