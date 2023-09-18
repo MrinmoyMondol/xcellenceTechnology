@@ -88,7 +88,7 @@
                         </li>
                     </ul>
                     <div class="other-option">
-                        <a class="default-btn" href="{{ route('getItSupport') }}">Get It Support <span></span></a>
+                        <a class="default-btn" href="tel:0802235678"><i class="fa fa-mobile-alt"></i> &nbsp;  (+880) 16-255-48959 <span></span></a>
                     </div>
                 </div>
             </nav>

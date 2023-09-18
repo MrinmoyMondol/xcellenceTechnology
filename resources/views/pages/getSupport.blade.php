@@ -66,7 +66,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Company Name <span class="text-danger">*</span> </label>
+                                        <label for="exampleInputPassword1">Company Name  </label>
                                         <input type="text" name="txt_cmpName" class="form-control" id="exampleInputPassword1" placeholder="Enter Company Name">
                                     </div>
 
@@ -74,37 +74,26 @@
                                     <div class="row">
                                         <div class="col">
                                             <div class="form-group">
-                                                <label for="exampleInputPassword1">Problem Category <span class="text-danger">*</span> </label>
+                                                <label for="exampleInputPassword1">Package List <span class="text-danger">*</span> </label>
                                             </div>
 
                                             <div class="form-check">
-                                                <input type="checkbox" name="problem[]" class="form-check-input" id="exampleCheck1" value="Software">
-                                                <label class="form-check-label" for="exampleCheck1">Software</label>
+                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Offer">
+                                                <label class="form-check-label" for="exampleCheck1">Offer</label>
                                             </div>
                                             <div class="form-check">
-                                                <input type="checkbox" name="problem[]" class="form-check-input" id="exampleCheck1" value="Web Application">
-                                                <label class="form-check-label" for="exampleCheck1">Web Application</label>
+                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Standard">
+                                                <label class="form-check-label" for="exampleCheck1">Standard</label>
                                             </div>
                                             <div class="form-check">
-                                                <input type="checkbox" name="problem[]" class="form-check-input" id="exampleCheck1" value="Graphics Design">
-                                                <label class="form-check-label" for="exampleCheck1">Graphics Design</label>
+                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Business">
+                                                <label class="form-check-label" for="exampleCheck1">Business</label>
                                             </div>
                                             <div class="form-check">
-                                                <input type="checkbox" name="problem[]" class="form-check-input" id="exampleCheck1" value="E-Commerce Solution">
-                                                <label class="form-check-label" for="exampleCheck1">E-Commerce Solution</label>
+                                                <input type="checkbox" name="package[]" class="form-check-input" id="exampleCheck1" value="Premium">
+                                                <label class="form-check-label" for="exampleCheck1">Premium</label>
                                             </div>
-                                            <div class="form-check">
-                                                <input type="checkbox" name="problem[]" class="form-check-input" id="exampleCheck1" value="Virtual Assistant">
-                                                <label class="form-check-label" for="exampleCheck1">Virtual Assistant</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input type="checkbox"  name="problem[]" class="form-check-input" id="exampleCheck1" value="Lead Generation">
-                                                <label class="form-check-label" for="exampleCheck1">Lead Generation</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input type="checkbox" name="problem[]" class="form-check-input" id="exampleCheck1" value="Digital Marketing">
-                                                <label class="form-check-label" for="exampleCheck1">Digital Marketing</label>
-                                            </div>
+
                                         </div>
                                         <div class="col">
                                             <div class="form-group">
@@ -119,7 +108,7 @@
                                     <div class="row">
                                         <div class="col">
                                             <div class="form-group">
-                                                <label for="exampleInputPassword1">Comments or Question <span class="text-danger">*</span> </label>
+                                                <label for="exampleInputPassword1">Comments or Question  </label>
                                                 <textarea name="txt_comments" class="form-control" id="" cols="10" rows="5"></textarea>
                                             </div>
                                         </div>

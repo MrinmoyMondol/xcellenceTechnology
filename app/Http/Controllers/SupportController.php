@@ -22,7 +22,7 @@ class SupportController extends Controller
         $newSupport ->phone = $request->txt_number;
         $newSupport ->email = $request->txt_email;
         $newSupport ->cmp_name = $request->txt_cmpName;
-        $newSupport ->prb_cat =json_encode($request->problem);
+        $newSupport ->prb_cat =json_encode($request->package);
         $newSupport ->description = $request->txt_description;
         $newSupport ->comment = $request->txt_comments;
         $newSupport ->status = '0';
