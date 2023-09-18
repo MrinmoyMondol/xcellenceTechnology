@@ -30,10 +30,8 @@
                             <p> <strong>Company Name: </strong> <span id="cmp_name"></span> </p>
                         </div>
 
-                        <div class="problem_category">
-                            <p> <strong>Problem Category:</strong> </p>
-
-                            <p id="prbCat">  </p>
+                        <div class="package">
+                            <p> <strong>Package:</strong> <span id="prbCat"></span> </p>
 
 
                         </div>

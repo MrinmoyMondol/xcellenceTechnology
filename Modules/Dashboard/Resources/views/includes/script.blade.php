@@ -124,7 +124,7 @@
             $('#cmp_name').html(data.cmp_name);
             $('#client_email').val(data.email);
 
-            var cat = JSON.parse(data.prb_cat);
+            var cat = JSON.parse(data.package);
             var p = '<p>' +  '&nbsp;'+  cat+ '</p>';
             $('#prbCat').html(p);
 
