@@ -21,6 +21,16 @@
 <link rel="stylesheet" href="{{asset('frontEnd/css/swiper.min.css')}}">
 <!-- Owl Carousel Min CSS -->
 <link rel="stylesheet" href="{{asset('frontEnd/css/owl.carousel.min.css')}}">
+
+<!-- Lightbox Js -->
+<link rel="stylesheet" href="{{asset('frontEnd/css/lightbox.min.css')}}">
+
+
+
+
+
+
+
 <!-- Style CSS -->
 <link rel="stylesheet" href="{{asset('frontEnd/css/style.css')}}">
 <!-- Responsive CSS -->

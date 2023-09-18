@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Modules\Dashboard\Entities\Sample;
 
 class ProductsController extends Controller
 {
@@ -13,7 +14,10 @@ class ProductsController extends Controller
 
     //Sample Page Function
     public function sample(){
-        return view('pages.products.allSample');
+        $allSamples = Sample::all();
+        return view('pages.products.allSample',[
+            'allSamples'=>$allSamples
+        ]);
     }
 
 

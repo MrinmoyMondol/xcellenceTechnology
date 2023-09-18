@@ -26,6 +26,29 @@
     <!-- End Page Title Area -->
 
 
+    <!-- Start About Section -->
+    <section class="about-area section-padding">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+
+                    @foreach($allSamples as $allSample)
+
+                        <a  href="{{ asset($allSample->sample_file) }}" class="example-image-link" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+
+                            <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"  class="example-image"  height="400px" width="500px"/>
+
+                        </a>
+
+                    @endforeach
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+
 
 
 

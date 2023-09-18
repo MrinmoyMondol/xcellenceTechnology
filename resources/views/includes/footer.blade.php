@@ -3,7 +3,7 @@
 <section class="footer-subscribe-wrapper">
 
     <!-- Start Footer Area -->
-    <div class="footer-area ptb-100">
+    <div class="footer-area pt-70 pb-50">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -47,8 +47,8 @@
                         <ul class="footer-quick-links">
                             <li><a href="{{ route('aboutUs') }}">About Us</a></li>
                             <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="terms-condition.html">Terms & Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
                         </ul>
                     </div>
                 </div>
@@ -75,8 +75,21 @@
 
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvirtualsheba2&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=232497725092445" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+{{--                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvirtualsheba2&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=232497725092445" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>--}}
+
+
+                        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61551428818550" data-tabs="timeline" data-width="440" data-height="330"
+                             data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/profile.php?id=61551428818550" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/profile.php?id=61551428818550">Xcellence Technology</a>
+                            </blockquote>
+                        </div>
+
+
+
                     </div>
+
+
                 </div>
 
 
