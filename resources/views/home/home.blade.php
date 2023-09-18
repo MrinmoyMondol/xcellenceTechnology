@@ -486,11 +486,11 @@
         <div class="demo">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable green">
-                        <h3 class="title">STANDARD</h3>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable red">
+                        <h3 class="title">OFFER</h3>
                         <div class="price-value">
-                            <span class="currency">BDT</span>
+                            <span class="currency">৳</span>
                             <span class="amount">00.00</span>
 
                         </div>
@@ -500,12 +500,29 @@
                         <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable green">
+                        <h3 class="title">STANDARD</h3>
+                        <div class="price-value">
+                            <span class="currency">৳</span>
+                            <span class="amount">3000 <h6><strike>৳ 6000</strike></h6>   </span>
+
+                        </div>
+
+                        <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence  </b>   </p>
+
+                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-sm-6">
                     <div class="pricingTable pink">
                         <h3 class="title">BUSINESS</h3>
                         <div class="price-value">
-                            <span class="currency">BDT</span>
-                            <span class="amount">00.00</span>
+                            <span class="currency">৳</span>
+                            <span class="amount">6000 <h6><strike>৳ 12000</strike></h6>   </span>
 
                         </div>
                         <p class="pricing-content"><b>  Best fit for established business or organizations who has a lot to offer and share </b> </p>
@@ -513,12 +530,12 @@
                         <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div class="pricingTable blue">
                         <h3 class="title">PREMIUM</h3>
                         <div class="price-value">
-                            <span class="currency">BDT</span>
-                            <span class="amount">00.00</span>
+                            <span class="currency">Please Contact</span>
+
 
                         </div>
                        <p class="pricing-content"> <b>  Start your business online </b> </p>

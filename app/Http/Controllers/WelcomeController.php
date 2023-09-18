@@ -24,11 +24,9 @@ class WelcomeController extends Controller
     }
 
     //Testimonial Page Function
-    public function testimonial(){
-        $allTestimonials = Testimonial::all();
-        return view('pages.testimonial',[
-            'allTestimonials'=>$allTestimonials
-        ]);
+    public function offer(){
+
+        return view('pages.offer') ;
     }
 
     //Pricing Page Function

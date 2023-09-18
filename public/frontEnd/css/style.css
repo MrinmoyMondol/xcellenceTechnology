@@ -4994,8 +4994,20 @@ a {
     background: #f06ace
 }
 
+.pricingTable.red .pricingTable-signup,
+.pricingTable.red .title,
+.pricingTable.red:after {
+    background: #A82126
+}
+
+
+
 .pricingTable.pink .price-value {
     color: #f06ace
+}
+
+.pricingTable.red .price-value {
+    color: #A82126
 }
 
 .pricingTable.pink .title:after,
@@ -5010,6 +5022,9 @@ a {
 }
 
 
+.offer_icon{
+    color: #A82126;
+}
 .standard_icon{
     color: #1DAA72;
 }
@@ -5032,6 +5047,9 @@ a {
 
 .pink{
     box-shadow: 2px 2px 13px 2px #F06ACE;
+}
+.red{
+    box-shadow: 2px 2px 13px 2px #A82126;
 }
 
 /* PricingSection End */

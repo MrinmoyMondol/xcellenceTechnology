@@ -78,7 +78,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{ route('testimonial') }}" class="nav-link">Testimonial </a>
+                            <a href="{{ route('offer') }}" class="nav-link">Offer </a>
 
                         </li>
 

@@ -38,12 +38,67 @@
         <div class="demo">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="pricingTable red">
+                            <h3 class="title">OFFER</h3>
+                            <div class="price-value">
+                                <span class="currency">৳</span>
+                                <span class="amount">00.00</span>
+
+                            </div>
+                            <ul class="pricing-content ">
+
+                                    <li>
+                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span>  2 Pages <small>(Home + 1 Page)</small>  </span>
+                                    </li>
+                                    <li >
+                                         <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Logo </span>
+                                    </li>
+                                    <li >
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Slider / Banner </span>
+                                    </li>
+
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Domain-1st Year Free </span>
+                                    </li>
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Hosting Free For 1st Year </span>
+                                    </li>
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Email  </span>
+                                    </li>
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Contact Form </span>
+                                    </li>
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Free SSL </span>
+                                    </li>
+
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Mobile Responsive </span>
+                                    </li>
+
+                                    <li>
+                                      <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Delivery in 3 Days </span>
+                                    </li>
+
+
+                                    <li>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 3 Month Free Support </span>
+                                    </li>
+                            </ul>
+
+                             <a href="{{ route('pricing') }}" class="pricingTable-signup">Order Now</a>
+
+                            <p>T&C Apply</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
                         <div class="pricingTable green">
                             <h3 class="title">STANDARD</h3>
                             <div class="price-value">
-                                <span class="currency">BDT</span>
-                                <span class="amount">00.00</span>
+                                <span class="currency">৳ </span>
+                                <span class="amount">3000 <h6><strike>৳ 6000</strike></h6>   </span>
 
                             </div>
                             <ul class="pricing-content ">
@@ -93,12 +148,12 @@
                             <p>T&C Apply</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="pricingTable pink">
                             <h3 class="title">BUSINESS</h3>
                             <div class="price-value">
-                                <span class="currency">BDT</span>
-                                <span class="amount">00.00</span>
+                                <span class="currency">৳</span>
+                                <span class="amount">6000 <h6><strike>৳ 12000</strike></h6>   </span>
 
                             </div>
                             <ul class="pricing-content">
@@ -165,12 +220,12 @@
                             <p>T&C Apply</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="pricingTable blue">
                             <h3 class="title">PREMIUM</h3>
                             <div class="price-value">
-                                <span class="currency">BDT</span>
-                                <span class="amount">00.00</span>
+                                <span class="currency">Please Contact</span>
+
 
                             </div>
                             <ul class="pricing-content">
