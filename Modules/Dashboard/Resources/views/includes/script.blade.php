@@ -191,3 +191,14 @@
     });
     $('.buttons-copy, .buttons-csv, .buttons-print, .buttons-pdf, .buttons-excel').addClass('btn btn-primary mr-1');
 </script>
+
+
+<script src="{{ asset('dashboard_asset/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('dashboard_asset/js/lightbox-plus-jquery.min.js') }}"></script>
+
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
+</script>

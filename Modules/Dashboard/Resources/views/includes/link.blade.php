@@ -17,6 +17,9 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
 
+{{--Light Box Gallery--}}
+<link href="{{asset('dashboard_asset/css/pages/lightbox.min.css')}}" rel="stylesheet">
+
 
 <!-- chartist CSS -->
 <link href="{{asset('dashboard_asset/assets/node_modules/morrisjs/morris.css')}}" rel="stylesheet">
@@ -29,6 +32,11 @@
 <link href="{{asset('dashboard_asset/css/style.css')}}" rel="stylesheet">
 <!-- Dashboard 1 Page CSS -->
 <link href="{{asset('dashboard_asset/css/pages/dashboard1.css')}}" rel="stylesheet">
+
+
+
+
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

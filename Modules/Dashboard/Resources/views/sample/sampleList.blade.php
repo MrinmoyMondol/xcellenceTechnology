@@ -38,34 +38,33 @@
                 <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#newSample"><i class="fa fa-plus-circle"></i> Create New</button>
             </div>
 
-            @foreach($allSamples as $allSample)
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <div class="el-card-item">
-                            <div class="el-overlay-1">
-                                <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"   height="500px"/>
-                                <div class="el-overlay">
-                                    <ul class="el-info">
-                                        <li>
-                                            <a class="btn default btn-outline " href="">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="btn default btn-outline" href="javascript:void(0);">
-                                                <i class="icon-link"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="el-card-content">
-                                <h4 class="box-title"> {{ $allSample->sample_code }} </h4>
-                                <small></small>
-                                <br/> </div>
-                        </div>
+
+
+
+
+
+        @foreach($allSamples as $allSample)
+                <div class="col-lg-4 col-md-6">
+
+
+
+
+                                <a  href="{{ asset($allSample->sample_file) }}" class="example-image-link" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+
+                                    <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"  class="example-image"  height="400px" width="500px"/>
+
+                                </a>
+
+
+
+{{--                            <div class="el-card-content">--}}
+{{--                                <h4 class="box-title"> {{ $allSample->sample_code }} </h4>--}}
+{{--                                <small></small>--}}
+{{--                                <br/>--}}
+{{--                            </div>--}}
+
                     </div>
-                </div>
+
             @endforeach
 
 
