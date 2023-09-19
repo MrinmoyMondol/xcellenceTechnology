@@ -43,20 +43,18 @@
                             <h3 class="title">OFFER</h3>
                             <div class="price-value">
                                 <span class="currency">৳</span>
-                                <span class="amount">00.00</span>
+                                <span class="amount">2000 <h6><strike>৳ 5000</strike></h6>   </span>
 
                             </div>
                             <ul class="pricing-content ">
 
                                     <li>
-                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span>  2 Pages <small>(Home + 1 Page)</small>  </span>
+                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span>  1 Pages  </span>
                                     </li>
                                     <li >
                                          <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Logo </span>
                                     </li>
-                                    <li >
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Slider / Banner </span>
-                                    </li>
+
 
                                     <li>
                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Domain-1st Year Free </span>
@@ -70,25 +68,23 @@
                                     <li>
                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Contact Form </span>
                                     </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Free SSL </span>
-                                    </li>
+
 
                                     <li>
                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Mobile Responsive </span>
                                     </li>
 
                                     <li>
-                                      <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Delivery in 3 Days </span>
+                                      <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Delivery in 2 Days </span>
                                     </li>
 
 
                                     <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 3 Month Free Support </span>
+                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Month Free Support </span>
                                     </li>
                             </ul>
 
-                             <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now</a>
+                             <a href="{{ route('offer') }}" class="pricingTable-signup">Order Now</a>
 
                             <p>T&C Apply</p>
                         </div>

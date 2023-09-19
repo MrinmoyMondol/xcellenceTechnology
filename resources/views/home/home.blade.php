@@ -491,11 +491,11 @@
                         <h3 class="title">OFFER</h3>
                         <div class="price-value">
                             <span class="currency">৳</span>
-                            <span class="amount">00.00</span>
+                            <span class="amount">2000 <h6><strike>৳ 5000</strike></h6>   </span>
 
                         </div>
 
-                        <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence  </b>   </p>
+                        <p class="pricing-content"> <b>Perfect for portfolio or personal website for you online identities.  </b>   </p>
 
                         <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
                     </div>
@@ -510,7 +510,7 @@
 
                         </div>
 
-                        <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence  </b>   </p>
+                        <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence.  </b>   </p>
 
                         <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
                     </div>
@@ -525,7 +525,7 @@
                             <span class="amount">6000 <h6><strike>৳ 12000</strike></h6>   </span>
 
                         </div>
-                        <p class="pricing-content"><b>  Best fit for established business or organizations who has a lot to offer and share </b> </p>
+                        <p class="pricing-content"><b>  Best fit for established business or organizations who has a lot to offer and share. </b> </p>
 
                         <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More </a>
                     </div>
