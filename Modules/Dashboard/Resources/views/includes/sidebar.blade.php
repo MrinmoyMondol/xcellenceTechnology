@@ -47,6 +47,12 @@
                 </li>
 
                 <li>
+                    <a href="{{route('dashboard.workList')}}">
+                        <i class=" icon-list"></i> <span>All Previous Work</span>
+                    </a>
+                </li>
+
+                <li>
                     <a href="{{route('dashboard.getSupport')}}">
                         <i class=" fas fa-users"></i> <span>Customer Support</span>
                     </a>

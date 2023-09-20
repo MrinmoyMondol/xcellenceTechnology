@@ -46,9 +46,6 @@ class SampleController extends Controller
 
         $imageURL = $uploadPath . $imageName ;
 
-
-
-
         $newSample = new Sample();
         $newSample ->sample_code = $request->txt_sampleCode;
         $newSample ->sample_file = $imageURL;

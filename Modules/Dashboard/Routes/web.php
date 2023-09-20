@@ -16,6 +16,7 @@ use Modules\Dashboard\Http\Controllers\ClientController;
 use Modules\Dashboard\Http\Controllers\DashboardController;
 use Modules\Dashboard\Http\Controllers\SampleController;
 use Modules\Dashboard\Http\Controllers\TestimonialController;
+use Modules\Dashboard\Http\Controllers\WorkController;
 
 Route::prefix('dashboard')->group(function() {
 
@@ -69,5 +70,13 @@ Route::prefix('dashboard')->group(function() {
     Route::get('/member/list', [SampleController::class, 'index'])->name('dashboard.sampleList');
     Route::get('/member/delete/{id}', [SampleController::class, 'destroy'])->name('dashboard.deleteSample');
     Route::post('/member/add', [SampleController::class, 'store'])->name('dashboard.addSample');
+
+
+
+
+    //All Previous Work Route
+    Route::get('/previous/work/list', [WorkController::class, 'index'])->name('dashboard.workList');
+    Route::post('/previous/work/add', [WorkController::class, 'store'])->name('dashboard.addWork');
+    Route::get('/previous/work/delete/{id}', [WorkController::class, 'destroy'])->name('dashboard.deleteWork');
 
 });
