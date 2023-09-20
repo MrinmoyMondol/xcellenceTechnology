@@ -96,6 +96,9 @@ class SampleController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $sampleById = Sample::where('id', $id)->first();
+        $sampleById ->delete();
+
+        return  redirect()->back()->with('success','Sample Delete Successfully..!!');
     }
 }

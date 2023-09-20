@@ -27,18 +27,33 @@
 
 
     <!-- Start About Section -->
-    <section class="about-area section-padding">
+    <section class="sample-area section-padding">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex ">
                 <div class="col-lg-4 col-md-4 col-sm-6">
 
                     @foreach($allSamples as $allSample)
+                        <div class="card">
+                            <div class="el-card-item">
+                                <div class="el-card-avatar el-overlay-1">
 
-                        <a  href="{{ asset($allSample->sample_file) }}" class="example-image-link" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+                                    <div class="popup-gallery ">
 
-                            <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"  class="example-image"  height="400px" width="500px"/>
+                                        <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
 
-                        </a>
+                                            <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"  class="example-image"  height="300px" width="400px"/>
+
+                                        </a>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="el-card-content">
+                                    <h5 class="box-title">{{ $allSample->sample_code }}</h5>
+                                    <br/> </div>
+                            </div>
+                        </div>
 
                     @endforeach
 

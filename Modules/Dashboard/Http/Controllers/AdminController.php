@@ -44,7 +44,6 @@ class AdminController extends Controller
             $newAdmin ->fName = $request->txt_firstName;
             $newAdmin ->lName = $request->txt_lastName;
             $newAdmin ->user_name = $request->txt_userName;
-            $newAdmin ->designation = $request->txt_designation;
             $newAdmin ->phone = $request->txt_phone;
             $newAdmin ->email  = $request->txt_email;
             $newAdmin ->gender  = $request->txt_gender;
@@ -66,7 +65,6 @@ class AdminController extends Controller
         $newAdmin ->fName = $request->txt_firstName;
         $newAdmin ->lName = $request->txt_lastName;
         $newAdmin ->user_name = $request->txt_userName;
-        $newAdmin ->designation = $request->txt_designation;
         $newAdmin ->phone = $request->txt_phone;
         $newAdmin ->email  = $request->txt_email;
         $newAdmin ->gender  = $request->txt_gender;
