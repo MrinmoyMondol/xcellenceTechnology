@@ -5,6 +5,7 @@ namespace Modules\Dashboard\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Str;
 use Modules\Dashboard\Entities\PreviousWork;
 
 class WorkController extends Controller
@@ -38,7 +39,7 @@ class WorkController extends Controller
     public function store(Request $request)
     {
         $avatar = $request->file('txt_workFile');
-        $imageName = $avatar->getClientOriginalName();
+        $imageName =time() . Str::random(10) . '.' . $avatar->getClientOriginalName();
 
         $uploadPath = 'prevWorkFile/';
         $avatar->move($uploadPath, $imageName);

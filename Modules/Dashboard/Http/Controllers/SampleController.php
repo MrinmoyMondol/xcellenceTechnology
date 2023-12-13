@@ -5,6 +5,7 @@ namespace Modules\Dashboard\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Str;
 use Modules\Dashboard\Entities\Sample;
 
 class SampleController extends Controller
@@ -49,7 +50,7 @@ class SampleController extends Controller
 
         // Handle Thumbnail upload
         $thumbnail = $request->file('txt_thumbnail');
-        $thumbnailName = $thumbnail->getClientOriginalName();
+        $thumbnailName =time() . Str::random(10) . '.' . $thumbnail->getClientOriginalName();
         $thumbnailPath = 'sampleFile/thumbnails/';
         $thumbnail->move($thumbnailPath, $thumbnailName);
         $thumbURL = $thumbnailPath . $thumbnailName;
@@ -58,7 +59,7 @@ class SampleController extends Controller
 
         // Handle Sample File upload
         $sampleFile = $request->file('txt_sampleFile');
-        $sampleFileName = $sampleFile->getClientOriginalName();
+        $sampleFileName =time() . Str::random(10) . '.' . $sampleFile->getClientOriginalName();
         $sampleFilePath = 'sampleFile/files/';
         $sampleFile->move($sampleFilePath, $sampleFileName);
         $sampleFileURL = $sampleFilePath . $sampleFileName;

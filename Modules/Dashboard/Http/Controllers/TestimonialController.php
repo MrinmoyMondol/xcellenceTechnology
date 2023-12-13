@@ -5,6 +5,7 @@ namespace Modules\Dashboard\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Str;
 use Modules\Dashboard\Entities\Testimonial;
 
 class TestimonialController extends Controller
@@ -42,7 +43,7 @@ class TestimonialController extends Controller
         if ($request->has('txt_file')){
 
             $avatar = $request->file('txt_file');
-            $imageName = $avatar->getClientOriginalName();
+            $imageName =time() . Str::random(10) . '.' . $avatar->getClientOriginalName();
 
             $uploadPath = 'clientImage/';
             $avatar->move($uploadPath, $imageName);
