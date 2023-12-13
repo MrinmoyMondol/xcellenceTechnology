@@ -57,7 +57,7 @@
 
                     </div>
                     <div class="el-card-content">
-                        <h5 class="box-title">{{ $allSample->sample_code }}</h5>
+                        <h5 class="box-title text-center">Code: {{ $allSample->sample_code }}</h5>
                         <br/>
 
                         <a href="{{ route('dashboard.deleteSample',$allSample->id ) }}" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i> </a>
