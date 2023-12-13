@@ -30,9 +30,8 @@
     <section class="sample-area section-padding">
         <div class="container">
             <div class="row d-flex ">
+                @foreach($allSamples as $allSample)
                 <div class="col-lg-4 col-md-4 col-sm-6">
-
-                    @foreach($allSamples as $allSample)
                         <div class="card">
                             <div class="el-card-item">
                                 <div class="el-card-avatar el-overlay-1">
@@ -50,14 +49,13 @@
 
                                 </div>
                                 <div class="el-card-content">
-                                    <h5 class="box-title text-center mt-3">Code : {{ $allSample->sample_code }}</h5>
+                                    <h5 class="box-title text-center mt-3">Code : <strong> {{ $allSample->sample_code }} </strong> </h5>
                                     <br/> </div>
                             </div>
                         </div>
-
-                    @endforeach
-
                 </div>
+                @endforeach
+
             </div>
         </div>
     </section>

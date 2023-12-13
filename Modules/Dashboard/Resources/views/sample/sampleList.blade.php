@@ -35,41 +35,49 @@
         <!-- ============================================================== -->
 
 
-        <div class="card-columns el-element-overlay">
+        <div class=" el-element-overlay">
+            <div class="row">
+                @foreach($allSamples as $allSample)
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="el-card-item">
+                            <div class="el-card-avatar el-overlay-1">
 
-            @foreach($allSamples as $allSample)
-            <div class="card">
-                <div class="el-card-item">
-                    <div class="el-card-avatar el-overlay-1">
-
-                        <div class="popup-gallery ">
-
-
-                                <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
-
-                                    <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File"  class="example-image" />
-
-                                </a>
+                                <div class="popup-gallery ">
 
 
+                                    <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+
+                                        <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File"  class="example-image" />
+
+                                    </a>
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="el-card-content">
+                                <h5 class="box-title text-center">Code: {{ $allSample->sample_code }}</h5>
+                                <br/>
+
+                                <a href="{{ route('dashboard.deleteSample',$allSample->id ) }}" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i> </a>
+                            </div>
                         </div>
-
-
-                    </div>
-                    <div class="el-card-content">
-                        <h5 class="box-title text-center">Code: {{ $allSample->sample_code }}</h5>
-                        <br/>
-
-                        <a href="{{ route('dashboard.deleteSample',$allSample->id ) }}" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i> </a>
                     </div>
                 </div>
+                @endforeach
             </div>
 
 
 
 
 
-            @endforeach
+
+
+
+
+
 
         </div>
         <!-- ============================================================== -->
