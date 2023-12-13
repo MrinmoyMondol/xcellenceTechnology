@@ -37,20 +37,39 @@ class SampleController extends Controller
      */
     public function store(Request $request)
     {
+//        dd($request->all());
 
-        $avatar = $request->file('txt_sampleFile');
-        $imageName = $avatar->getClientOriginalName();
+//        $request->validate([
+//            'txt_sampleCode' => 'required',
+//            'txt_thumbnail' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+//            'txt_sampleFile' => 'required|mimes:jpeg,png,jpg,gif,svg|max:2048',
+//            'txt_description' => 'nullable',
+//        ]);
 
-        $uploadPath = 'sampleFile/';
-        $avatar->move($uploadPath, $imageName);
 
-        $imageURL = $uploadPath . $imageName ;
+        // Handle Thumbnail upload
+        $thumbnail = $request->file('txt_thumbnail');
+        $thumbnailName = $thumbnail->getClientOriginalName();
+        $thumbnailPath = 'sampleFile/thumbnails/';
+        $thumbnail->move($thumbnailPath, $thumbnailName);
+        $thumbURL = $thumbnailPath . $thumbnailName;
 
+
+
+        // Handle Sample File upload
+        $sampleFile = $request->file('txt_sampleFile');
+        $sampleFileName = $sampleFile->getClientOriginalName();
+        $sampleFilePath = 'sampleFile/files/';
+        $sampleFile->move($sampleFilePath, $sampleFileName);
+        $sampleFileURL = $sampleFilePath . $sampleFileName;
+
+        // Create a new Sample instance and save to the database
         $newSample = new Sample();
-        $newSample ->sample_code = $request->txt_sampleCode;
-        $newSample ->sample_file = $imageURL;
-        $newSample ->description = $request->txt_description;
-        $newSample ->save();
+        $newSample->sample_code = $request->txt_sampleCode;
+        $newSample->sample_file = $sampleFileURL;
+        $newSample->thumbnail = $thumbURL;
+        $newSample->description = $request->txt_description;
+        $newSample->save();
 
         return  redirect(route('dashboard.sampleList'))->with('success','Successfully Saved..!');
     }

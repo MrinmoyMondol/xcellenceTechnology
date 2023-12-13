@@ -35,13 +35,23 @@
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
+                                                    <label>Thumbnail  <span class="required">*</span></label>
+                                                    <input type="file" class="form-control" name="txt_thumbnail">
+                                                </div>
+                                            </div>
+                                            <!--/span-->
+                                        </div>
+
+                                        <div class="row p-t-20">
+                                            <!--/span-->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Sample File <span class="required">*</span></label>
                                                     <input type="file" class="form-control" name="txt_sampleFile">
                                                 </div>
                                             </div>
                                             <!--/span-->
                                         </div>
-
 
                                         <div class="form-group">
                                             <label>Description</label>
@@ -54,7 +64,6 @@
 
                                     <div class="form-actions float-right">
                                         <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
-                                        <button type="button" class="btn btn-inverse" data-dismiss="modal" aria-label="Close">Cancel</button>
                                     </div>
                                 </form>
                             </div>

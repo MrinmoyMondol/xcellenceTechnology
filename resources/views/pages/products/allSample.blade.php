@@ -41,7 +41,7 @@
 
                                         <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
 
-                                            <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"  class="example-image"  height="300px" width="400px"/>
+                                            <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File"  class="example-image"  height="300px" width="400px"/>
 
                                         </a>
 
@@ -50,7 +50,7 @@
 
                                 </div>
                                 <div class="el-card-content">
-                                    <h5 class="box-title">{{ $allSample->sample_code }}</h5>
+                                    <h5 class="box-title text-center mt-3">Code : {{ $allSample->sample_code }}</h5>
                                     <br/> </div>
                             </div>
                         </div>

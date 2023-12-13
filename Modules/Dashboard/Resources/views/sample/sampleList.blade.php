@@ -47,7 +47,7 @@
 
                                 <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
 
-                                    <img src="{{ asset($allSample->sample_file) }}" alt="Sample File"  class="example-image" />
+                                    <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File"  class="example-image" />
 
                                 </a>
 

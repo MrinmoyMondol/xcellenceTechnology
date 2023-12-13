@@ -9,8 +9,10 @@ class Sample extends Model
 {
     use HasFactory;
 
-    protected $fillable = [];
-    
+    protected $fillable = [
+        'sample_code','thumbnail','sample_file','description'
+    ];
+
     protected static function newFactory()
     {
         return \Modules\Dashboard\Database\factories\SampleFactory::new();
