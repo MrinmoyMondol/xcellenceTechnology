@@ -38,19 +38,29 @@
 
                                     <div class="popup-gallery ">
 
-                                        <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
-
-                                            <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File"  class="example-image"  height="300px" width="400px"/>
+                                        <a href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+                                            <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File" class="example-image" height="300px" width="400px"/>
 
                                         </a>
 
                                     </div>
 
-
                                 </div>
                                 <div class="el-card-content">
                                     <h5 class="box-title text-center mt-3">Code : <strong> {{ $allSample->sample_code }} </strong> </h5>
-                                    <br/> </div>
+                                    <br/>
+                                    <div class="button-container  text-center mb-5">
+                                        <a href="{{ asset($allSample->sample_file) }}" class=" btn btn-sm btn-primary image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+                                            <i class="fa fa-eye"></i> View
+                                        </a>
+                                        <a href="{{ asset($allSample->sample_file) }}" download>
+                                            <button class=" btn btn-success btn-sm download-button"> <i class="fa fa-download"></i> Download</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
                             </div>
                         </div>
                 </div>

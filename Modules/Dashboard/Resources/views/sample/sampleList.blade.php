@@ -46,11 +46,14 @@
                                 <div class="popup-gallery ">
 
 
-                                    <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1" data-title="{{ $allSample->sample_code }}">
+                                    <a  href="{{ asset($allSample->sample_file) }}" class="image-popup-no-margins" data-lightbox="image-1"
+                                        data-title="{{ $allSample->sample_code }}">
 
                                         <img src="{{ asset($allSample->thumbnail) }}" alt="Sample File"  class="example-image" />
 
                                     </a>
+
+
 
 
                                 </div>
