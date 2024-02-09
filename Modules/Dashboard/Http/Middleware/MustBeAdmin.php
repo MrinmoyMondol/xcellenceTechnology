@@ -17,11 +17,13 @@ class MustBeAdmin
      */
     public function handle(Request $request, Closure $next , $guard = 'admin')
     {
-        if (Auth::guard($guard)->check()) {
-            return redirect('/home');
+        if (!Auth::guard($guard)->check()) {
+            return redirect('/');
+        }
+        else{
+            return $next($request);
         }
 
 
-        return $next($request);
     }
 }
