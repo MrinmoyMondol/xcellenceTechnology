@@ -38,7 +38,7 @@
 			}
 		};
 		parallaxSlider = new Swiper('.slider-prlx .parallax-slider', parallaxSliderOptions);
-	
+
 		// Var Background image
 		var pageSection = $(".bg-img, section");
 		pageSection.each(function (indx) {
@@ -46,17 +46,17 @@
 				$(this).css("background-image", "url(" + $(this).data("background") + ")");
 			}
 		});
-	
+
         // Header Sticky
 		$(window).on('scroll',function() {
-            if ($(this).scrollTop() > 120){  
+            if ($(this).scrollTop() > 120){
                 $('.navbar-area').addClass("is-sticky");
             }
             else{
                 $('.navbar-area').removeClass("is-sticky");
             }
         });
-        
+
         // Mean Menu
 		jQuery('.mean-menu').meanmenu({
 			meanScreenWidth: "991"
@@ -92,7 +92,7 @@
 				}
 			});
 		});
-        
+
         // Testimonial Slider
 		$('.testimonial-slider').owlCarousel({
 			loop: true,
@@ -122,13 +122,13 @@
 
         // Nice Select JS
         $('select').niceSelect();
-		
+
 		//  Star Counter
 		$('.counter-number').counterUp({
 			delay: 15,
 			time: 2000
 		});
-		
+
         // Input Plus & Minus Number JS
         $('.input-counter').each(function() {
             var spinner = jQuery(this),
@@ -137,7 +137,7 @@
             btnDown = spinner.find('.minus-btn'),
             min = input.attr('min'),
             max = input.attr('max');
-            
+
             btnUp.on('click', function() {
                 var oldValue = parseFloat(input.val());
                 if (oldValue >= max) {
@@ -170,7 +170,7 @@
                 // Hide The Other Panels
                 $('.accordion-content').not($(this).next()).slideUp('slow');
                 // Removes Active Class From Other Titles
-                $('.accordion-title').not($(this)).removeClass('active');		
+                $('.accordion-title').not($(this)).removeClass('active');
             });
         });
 
@@ -199,7 +199,7 @@
                 }
             }
         });
-		
+
 		// Porfolio isotope and filter
 		$(window).on('load', function () {
 			var projectIsotope = $('.project-container').isotope({
@@ -221,21 +221,21 @@
                 var scrolled = $(window).scrollTop();
                 if (scrolled > 600) $('.go-top').addClass('active');
                 if (scrolled < 600) $('.go-top').removeClass('active');
-            });  
+            });
             // Click Event
             $('.go-top').on('click', function() {
                 $("html, body").animate({ scrollTop: "0" },  500);
             });
         });
-        
-        // Count Time 
+
+        // Count Time
         function makeTimer() {
-            var endTime = new Date("June 10, 2022 17:00:00 PDT");			
+            var endTime = new Date("June 10, 2022 17:00:00 PDT");
             var endTime = (Date.parse(endTime)) / 1000;
             var now = new Date();
             var now = (Date.parse(now) / 1000);
             var timeLeft = endTime - now;
-            var days = Math.floor(timeLeft / 86400); 
+            var days = Math.floor(timeLeft / 86400);
             var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
             var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
             var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
@@ -250,10 +250,10 @@
         setInterval(function() { makeTimer(); }, 1000);
 
     });
-	
+
 	// WOW JS
 	$(window).on ('load', function (){
-        if ($(".wow").length) { 
+        if ($(".wow").length) {
             var wow = new WOW ({
                 boxClass:     'wow',      // Animated element css class (default is wow)
                 animateClass: 'animated', // Animation css class (default is animated)

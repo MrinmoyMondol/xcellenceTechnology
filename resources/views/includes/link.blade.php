@@ -4,6 +4,7 @@
 <!-- Favicon -->
 <!--<link rel="icon" type="image/png" href="{{asset('frontEnd/img/favicon.png')}}">-->
 <!-- Bootstrap Min CSS -->
+
 <link rel="stylesheet" href="{{asset('frontEnd/css/bootstrap.min.css')}}">
 <!-- Animate Min CSS -->
 <link rel="stylesheet" href="{{asset('frontEnd/css/animate.min.css')}}">

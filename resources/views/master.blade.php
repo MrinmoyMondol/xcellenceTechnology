@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
     <title>@yield('title')</title>
+
     @include('includes.link')
+
+
 </head>
 
 <body>
