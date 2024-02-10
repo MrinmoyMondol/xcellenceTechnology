@@ -11,12 +11,6 @@ const mix = require('laravel-mix');
  |
  */
 
-// mix.js('resources/js/app.js', 'public/css')
-//     .postCss('resources/css/app.css', 'public/js', [
-//         //
-//     ]);
-
-
 
 mix.sass('resources/sass/app.scss', 'public/frontEnd/css') // Compile SCSS to CSS and output to public/frontEnd/css
     .js('resources/js/app.js', 'public/frontEnd/js'); // Compile JavaScript and output to public/frontEnd/js

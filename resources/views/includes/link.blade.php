@@ -28,10 +28,6 @@
 
 
 
-
-
-
-
 <!-- Style CSS -->
 <link rel="stylesheet" href="{{asset('frontEnd/css/style.css')}}">
 <!-- Responsive CSS -->
