@@ -22,6 +22,7 @@
 
                                 <form action="{{ route('dashboard.addOffer') }}" method="post" enctype="multipart/form-data">
                                     @csrf
+
                                     <div class="form-body">
                                         <h3 class="card-title">Offer Info</h3>
                                         <hr>
@@ -44,14 +45,14 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Start Date & Time</label>
-                                                    <input type="text" id="startDate" class="form-control" placeholder="Saturday 24 June 2017 - 21:44">
+                                                    <input type="text" name="txt_startDate" id="startDate" class="form-control" placeholder="Saturday 24 June 2017 - 21:44">
                                                 </div>
                                             </div>
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>End Date & Time</label>
-                                                    <input type="text" id="endDate" class="form-control" placeholder="Saturday 24 June 2017 - 21:44">
+                                                    <input type="text" name="txt_endDate" id="endDate" class="form-control" placeholder="Saturday 24 June 2017 - 21:44">
                                                 </div>
                                             </div>
                                             <!--/span-->

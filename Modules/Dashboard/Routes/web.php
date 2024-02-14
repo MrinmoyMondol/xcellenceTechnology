@@ -85,6 +85,7 @@ Route::prefix('dashboard')->group(function() {
     //Offer Route
     Route::get('/offer/list', [OfferController::class, 'index'])->name('dashboard.offerList');
 //    Route::get('/offer/new', [OfferController::class, 'create'])->name('dashboard.newOffer');
-    Route::get('/offer/add', [OfferController::class, 'store'])->name('dashboard.addOffer');
+    Route::post('/offer/add', [OfferController::class, 'store'])->name('dashboard.addOffer');
+    Route::get('/offer/delete', [OfferController::class, 'destroy'])->name('dashboard.deleteOffer');
 
 });

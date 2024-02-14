@@ -228,12 +228,12 @@
 <script>
 
     $('#startDate').bootstrapMaterialDatePicker({
-        format : 'DD/MM/YYYY HH:mm',
+        format : 'YYYY-MM-DD HH:mm',
         minDate : new Date()
     });
 
     $('#endDate').bootstrapMaterialDatePicker({
-        format : 'DD/MM/YYYY HH:mm',
+        format : 'YYYY-MM-DD HH:mm',
         minDate : new Date()
     });
 

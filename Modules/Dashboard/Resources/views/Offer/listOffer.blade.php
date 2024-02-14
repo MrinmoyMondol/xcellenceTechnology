@@ -37,7 +37,36 @@
 
         <div class=" el-element-overlay">
             <div class="row">
+                @foreach($allOffers as $allOffer)
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="el-card-item">
+                                <div class="el-card-avatar el-overlay-1">
 
+                                    <div class="popup-gallery ">
+
+
+                                        <a  href="{{ asset($allOffer->offer_image) }}" class="image-popup-no-margins" data-lightbox="image-1"
+                                            >
+
+                                            <img src="{{ asset($allOffer->offer_image) }}" alt="Sample File"  class="example-image" />
+
+                                        </a>
+
+
+
+
+                                    </div>
+
+
+                                </div>
+                                <div class="el-card-content">
+                                     <a href="{{ route('dashboard.deleteOffer',$allOffer->id ) }}" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
 
 
             </div>

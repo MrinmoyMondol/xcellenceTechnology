@@ -5,6 +5,8 @@ namespace Modules\Dashboard\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Str;
+use Modules\Dashboard\Entities\Offer;
 
 class OfferController extends Controller
 {
@@ -14,7 +16,10 @@ class OfferController extends Controller
      */
     public function index()
     {
-        return view('dashboard::offer.listOffer');
+        $allOffers = Offer::latest()->get();
+        return view('dashboard::offer.listOffer',[
+            'allOffers'=>$allOffers
+        ]);
     }
 
     /**
@@ -34,7 +39,22 @@ class OfferController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Handle Thumbnail upload
+        $thumbnail = $request->file('txt_thumb');
+        $thumbnailName =time() . Str::random(10) . '.' . $thumbnail->getClientOriginalName();
+        $thumbnailPath = 'offerImage/';
+        $thumbnail->move($thumbnailPath, $thumbnailName);
+        $thumbURL = $thumbnailPath . $thumbnailName;
+
+        $newOffer = new Offer();
+        $newOffer ->offer_image =$thumbURL;
+        $newOffer ->start_date =  $request->txt_startDate;
+        $newOffer ->end_date =$request->txt_endDate;
+        $newOffer ->status =1;
+        $newOffer ->save();
+
+        return  redirect()->back()->with('success','New Offer Create Successfully..!!');
+
     }
 
     /**
