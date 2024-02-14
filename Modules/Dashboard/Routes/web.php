@@ -11,9 +11,11 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
 use Modules\Dashboard\Http\Controllers\AdminController;
 use Modules\Dashboard\Http\Controllers\ClientController;
 use Modules\Dashboard\Http\Controllers\DashboardController;
+use Modules\Dashboard\Http\Controllers\OfferController;
 use Modules\Dashboard\Http\Controllers\SampleController;
 use Modules\Dashboard\Http\Controllers\TestimonialController;
 use Modules\Dashboard\Http\Controllers\WorkController;
@@ -78,5 +80,11 @@ Route::prefix('dashboard')->group(function() {
     Route::get('/previous/work/list', [WorkController::class, 'index'])->name('dashboard.workList');
     Route::post('/previous/work/add', [WorkController::class, 'store'])->name('dashboard.addWork');
     Route::get('/previous/work/delete/{id}', [WorkController::class, 'destroy'])->name('dashboard.deleteWork');
+
+
+    //Offer Route
+    Route::get('/offer/list', [OfferController::class, 'index'])->name('dashboard.offerList');
+//    Route::get('/offer/new', [OfferController::class, 'create'])->name('dashboard.newOffer');
+    Route::get('/offer/add', [OfferController::class, 'store'])->name('dashboard.addOffer');
 
 });

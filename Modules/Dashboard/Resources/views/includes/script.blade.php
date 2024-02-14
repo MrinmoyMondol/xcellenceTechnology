@@ -202,3 +202,40 @@
         'wrapAround': true
     })
 </script>
+
+
+
+
+
+<!-- ============================================================== -->
+<!-- Plugins for this page -->
+<!-- ============================================================== -->
+
+<!-- All Jquery -->
+<!-- ============================================================== -->
+{{--<script src="{{asset('dashboard_asset/assets/node_modules/jquery/jquery-3.2.1.min.js')}}"></script>--}}
+
+<!-- Plugin JavaScript -->
+<script src="{{asset('dashboard_asset/assets/node_modules/moment/moment.js')}}"></script>
+<script src="{{asset('dashboard_asset/assets/node_modules/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js')}}"></script>
+
+
+
+
+
+
+
+<script>
+
+    $('#startDate').bootstrapMaterialDatePicker({
+        format : 'DD/MM/YYYY HH:mm',
+        minDate : new Date()
+    });
+
+    $('#endDate').bootstrapMaterialDatePicker({
+        format : 'DD/MM/YYYY HH:mm',
+        minDate : new Date()
+    });
+
+</script>
+
