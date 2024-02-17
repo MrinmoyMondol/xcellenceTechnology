@@ -12,10 +12,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2>Offer</h2>
+                        <h2>All Offers</h2>
                         <ul>
                             <li><a href="{{ route('welcomePage') }}">Home</a></li>
-                            <li>Offer</li>
+                            <li>All Offers</li>
                         </ul>
                     </div>
                 </div>
@@ -29,13 +29,13 @@
     <section class="about-area section-padding">
         <div class="container">
             <div class="row">
-
-
-
-
-
-
-
+                @foreach($allOffers as $allOffer)
+                <div class="col-6">
+                    <div class="offer_image">
+                        <img src="{{ $allOffer->offer_image}}" alt="" width="540px" height="240px">
+                    </div>
+                </div>
+                @endforeach
 
 
             </div>

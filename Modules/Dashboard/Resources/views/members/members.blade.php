@@ -1,7 +1,7 @@
 @extends('dashboard::layouts.master')
 
 @section('title')
-    VS || Members
+    XT || Members
 @endsection
 
 @section('mainContent')

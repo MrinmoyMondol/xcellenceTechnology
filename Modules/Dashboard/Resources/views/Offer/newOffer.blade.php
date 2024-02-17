@@ -1,7 +1,7 @@
 @extends('dashboard::layouts.master')
 
 @section('title')
-    VS || New Offer
+    XT || New Offer
 @endsection
 
 @section('mainContent')

@@ -1,7 +1,7 @@
 @extends('dashboard::layouts.master')
 
 @section('title')
-    VS || Customer Support
+    XT || Customer Support
 @endsection
 
 @section('mainContent')

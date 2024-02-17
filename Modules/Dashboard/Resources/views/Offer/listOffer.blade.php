@@ -46,9 +46,9 @@
                                     <div class="popup-gallery ">
 
 
-                                        <a  href="{{ asset($allOffer->offer_image) }}" class="image-popup-no-margins" data-lightbox="image-1">
+                                        <a  href="{{ asset($allOffer->offer_image) }}" class="image-popup-no-margins" data-lightbox="image-1" width="540px" height="240px">
 
-                                            <img src="{{ asset($allOffer->offer_image) }}" alt="Sample File"  class="example-image" />
+                                            <img src="{{ asset($allOffer->offer_image) }}" alt="Sample File"  class="example-image" width="540px" height="240px"/>
 
                                         </a>
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Modules\Dashboard\Entities\Offer;
 use Modules\Dashboard\Entities\Testimonial;
 
 class WelcomeController extends Controller
@@ -25,8 +26,10 @@ class WelcomeController extends Controller
 
     //Testimonial Page Function
     public function offer(){
-
-        return view('pages.offer') ;
+        $allOffers = Offer::latest()->get();
+        return view('pages.offer',[
+            'allOffers'=>$allOffers
+        ]) ;
     }
 
     //Pricing Page Function
