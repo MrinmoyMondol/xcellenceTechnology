@@ -2,8 +2,10 @@
 
 namespace App\Console;
 
+use Carbon\Carbon;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Modules\Dashboard\Entities\Offer;
 
 class Kernel extends ConsoleKernel
 {
@@ -16,6 +18,12 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+
+//         $schedule->command('delete:offer-delete')->everyMinute();
+
+        $schedule->call(function () {
+            Offer::where('end_date','<', Carbon::now())->delete();
+        })->everyMinute();
     }
 
     /**

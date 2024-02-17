@@ -4,6 +4,7 @@ namespace Modules\Dashboard\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
+use Modules\Dashboard\Entities\Offer;
 use Modules\Dashboard\Entities\Testimonial;
 
 class DashboardDatabaseSeeder extends Seeder
@@ -20,5 +21,7 @@ class DashboardDatabaseSeeder extends Seeder
         // $this->call("OthersTableSeeder");
 
 //         Testimonial::factory(10)->create();
+
+        Modules\Dashboard\Entities\Offer::factory(20)->create();
     }
 }
