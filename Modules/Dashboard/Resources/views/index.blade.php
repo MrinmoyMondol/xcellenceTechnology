@@ -10,7 +10,7 @@
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('dashboard_asset/assets/images/favicon.png')}}">
-    <title>VS || Admin </title>
+    <title>XT || Admin </title>
 
     <!-- page css -->
     <link href="{{asset('dashboard_asset/css/pages/login-register-lock.css')}}" rel="stylesheet">

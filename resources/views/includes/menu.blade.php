@@ -67,9 +67,7 @@
                                 <li class="nav-item">
                                     <a href="{{ route('products') }}" class="nav-link">Our Works </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{ route('allSample') }}" class="nav-link">All Samples</a>
-                                </li>
+
                             </ul>
                         </li>
 
