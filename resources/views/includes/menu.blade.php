@@ -75,10 +75,10 @@
                             <a href="{{ route('pricing') }}" class="nav-link">Pricing </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="{{ route('offer') }}" class="nav-link">Offer </a>
+{{--                        <li class="nav-item">--}}
+{{--                            <a href="{{ route('offer') }}" class="nav-link">Offer </a>--}}
 
-                        </li>
+{{--                        </li>--}}
 
 
                         <li class="nav-item">

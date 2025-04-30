@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
-    <title>VS || Registration</title>
+    <title>XT || Registration</title>
     <!-- loader-->
     <link href="{{asset('dashboard_asset/assets/css/pace.min.css')}}" rel="stylesheet"/>
     <script src="{{asset('assets/js/pace.min.js')}}"></script>
