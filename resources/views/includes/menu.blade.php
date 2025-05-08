@@ -86,7 +86,11 @@
                         </li>
                     </ul>
                     <div class="other-option">
-                        <a class="default-btn" href="tel:0802235678"><i class="fa fa-mobile-alt"></i> &nbsp;  (+880) 16-255-48959 <span></span></a>
+                        <div class="other-option">
+                            <a class="default-btn" href="https://wa.me/+8801625548959?text=I'm%20interested%20in%20your%20services%20." target="_blank">
+                                <img src="{{asset('frontEnd/img/whatsapp.png')}}"  alt="logo" width="20px" height="20px">  &nbsp; (+880) 16-255-48959 <span></span></a>
+
+                        </div>
                     </div>
                 </div>
             </nav>

@@ -18,10 +18,10 @@
                                 <p>Quality Technologies. Productivity. Reliability. Innovation.</p>
                                 <div class="banner-btn">
                                     <a href="{{ route('getItSupport') }}" class="default-btn-one">
-                                        Get It Support
+                                        Get IT Support
                                         <span></span>
                                     </a>
-                                    <a class="default-btn" href="contact.html">
+                                    <a class="default-btn" href="{{ route('contact') }}">
                                         Free Consultation
                                         <span></span>
                                     </a>
@@ -64,7 +64,7 @@
                     <div class="about-image">
                         <img src="{{asset('frontEnd/img/about.jpg')}}" alt="About image">
                         <div class="years-design">
-                            <h2>7</h2>
+                            <h2>8+</h2>
                             <h5>Years Experience</h5>
                         </div>
                     </div>
@@ -181,190 +181,197 @@
     <!-- End Services Section -->
 
 
-    <!-- Start Project Section -->
-    <section class="project-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="section-title">
-                        <h6>Recent Works</h6>
-                        <h2>Our Portfolio</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="project-list">
-                        <ul class="nav" id="project-flters">
-                            <li class="filter filter-active" data-filter=".all">all</li>
-                            <li class="filter" data-filter=".webdesign">WEB</li>
-                            <li class="filter" data-filter=".graphics">Graphics</li>
-                            <li class="filter" data-filter=".data">Data Entry</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="project-container">
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">
-                        <a href="https://devsalient.com/mdh/">
-                            <div class="project-item">
-                                <img src="{{asset('frontEnd/img/portfolio/1.png')}}" alt="image">
-                                <div class="project-content-overlay">
-                                    <p>My Debt Help</p>
-                                    <h3> Web Application</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">
-                        <a href="https://devsalient.com/infosol/">
-                            <div class="project-item">
-                                <img src="{{asset('frontEnd/img/portfolio/2.png')}}" alt="image">
-                                <div class="project-content-overlay">
-                                    <p>Infosol</p>
-                                    <h3> Web Application</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">
-                        <a href="https://golfchateaucartier.com/">
-                            <div class="project-item">
-                                <img src="{{asset('frontEnd/img/portfolio/3.png')}}" alt="image">
-                                <div class="project-content-overlay">
-                                    <p>Golf Chateau Cartier</p>
-                                    <h3> Web Application</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">
-                        <a href="https://www.ottawa-attorneys.ca/">
-                            <div class="project-item">
-                                <img src="{{asset('frontEnd/img/portfolio/4.png')}}" alt="image">
-                                <div class="project-content-overlay">
-                                    <p>Ottawa-Attorneys</p>
-                                    <h3> Web Application</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+{{--    Our Portfolio Section--}}
 
 
+{{--    <!-- Start Project Section -->--}}
+{{--    <section class="project-area section-padding">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12 col-md-12">--}}
+{{--                    <div class="section-title">--}}
+{{--                        <h6>Recent Works</h6>--}}
+{{--                        <h2>Our Portfolio</h2>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-12">--}}
+{{--                    <div class="project-list">--}}
+{{--                        <ul class="nav" id="project-flters">--}}
+{{--                            <li class="filter filter-active" data-filter=".all">all</li>--}}
+{{--                            <li class="filter" data-filter=".webdesign">WEB</li>--}}
+{{--                            <li class="filter" data-filter=".graphics">Graphics</li>--}}
+{{--                            <li class="filter" data-filter=".data">Data Entry</li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="project-container">--}}
 
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">
-                        <a href="https://jobsoutlet.net/">
-                            <div class="project-item">
-                                <img src="{{asset('frontEnd/img/portfolio/JobsOutlet.jpg')}}" alt="image">
-                                <div class="project-content-overlay">
-                                    <p>JobsOutlet</p>
-                                    <h3> Web Application</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">--}}
+{{--                        <a href="https://devsalient.com/mdh/">--}}
+{{--                            <div class="project-item">--}}
+{{--                                <img src="{{asset('frontEnd/img/portfolio/1.png')}}" alt="image">--}}
+{{--                                <div class="project-content-overlay">--}}
+{{--                                    <p>My Debt Help</p>--}}
+{{--                                    <h3> Web Application</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">--}}
+{{--                        <a href="https://devsalient.com/infosol/">--}}
+{{--                            <div class="project-item">--}}
+{{--                                <img src="{{asset('frontEnd/img/portfolio/2.png')}}" alt="image">--}}
+{{--                                <div class="project-content-overlay">--}}
+{{--                                    <p>Infosol</p>--}}
+{{--                                    <h3> Web Application</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">--}}
+{{--                        <a href="https://golfchateaucartier.com/">--}}
+{{--                            <div class="project-item">--}}
+{{--                                <img src="{{asset('frontEnd/img/portfolio/3.png')}}" alt="image">--}}
+{{--                                <div class="project-content-overlay">--}}
+{{--                                    <p>Golf Chateau Cartier</p>--}}
+{{--                                    <h3> Web Application</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">--}}
+{{--                        <a href="https://www.ottawa-attorneys.ca/">--}}
+{{--                            <div class="project-item">--}}
+{{--                                <img src="{{asset('frontEnd/img/portfolio/4.png')}}" alt="image">--}}
+{{--                                <div class="project-content-overlay">--}}
+{{--                                    <p>Ottawa-Attorneys</p>--}}
+{{--                                    <h3> Web Application</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
 
 
 
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all  webdesign">--}}
+{{--                        <a href="https://jobsoutlet.net/">--}}
+{{--                            <div class="project-item">--}}
+{{--                                <img src="{{asset('frontEnd/img/portfolio/JobsOutlet.jpg')}}" alt="image">--}}
+{{--                                <div class="project-content-overlay">--}}
+{{--                                    <p>JobsOutlet</p>--}}
+{{--                                    <h3> Web Application</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
 
 
 
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all  graphics">
-
-                        <div class="project-item">
-                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 1.png')}}" alt="image">
-                            <div class="project-content-overlay">
-
-                                <h3>Graphics Design</h3>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">
-
-                        <div class="project-item">
-                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 2.png')}}" alt="image">
-                            <div class="project-content-overlay">
-
-                                <h3>Graphics Design</h3>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">
-
-                        <div class="project-item">
-                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 3.png')}}" alt="image">
-                            <div class="project-content-overlay">
-
-                                <h3>Graphics Design</h3>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">
-
-                        <div class="project-item">
-                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 4.png')}}" alt="image">
-                            <div class="project-content-overlay">
-
-                                <h3>Graphics Design</h3>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">
-
-                        <div class="project-item">
-                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 5.png')}}" alt="image">
-                            <div class="project-content-overlay">
-
-                                <h3>Graphics Design</h3>
-                            </div>
-                        </div>
-
-                    </div>
 
 
-                    {{--  portfolio Item --}}
-                    <div class="col-lg-4 col-md-6 project-grid-item all data">
 
-                        <div class="project-item">
-                            <img src="{{asset('frontEnd/img/portfolio/data1.png')}}" alt="image">
-                            <div class="project-content-overlay">
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all  graphics">--}}
 
-                                <h3>Data Entry</h3>
-                            </div>
-                        </div>
+{{--                        <div class="project-item">--}}
+{{--                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 1.png')}}" alt="image">--}}
+{{--                            <div class="project-content-overlay">--}}
 
-                    </div>
+{{--                                <h3>Graphics Design</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Project Section -->
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">--}}
+
+{{--                        <div class="project-item">--}}
+{{--                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 2.png')}}" alt="image">--}}
+{{--                            <div class="project-content-overlay">--}}
+
+{{--                                <h3>Graphics Design</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">--}}
+
+{{--                        <div class="project-item">--}}
+{{--                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 3.png')}}" alt="image">--}}
+{{--                            <div class="project-content-overlay">--}}
+
+{{--                                <h3>Graphics Design</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">--}}
+
+{{--                        <div class="project-item">--}}
+{{--                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 4.png')}}" alt="image">--}}
+{{--                            <div class="project-content-overlay">--}}
+
+{{--                                <h3>Graphics Design</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all graphics">--}}
+
+{{--                        <div class="project-item">--}}
+{{--                            <img src="{{asset('frontEnd/img/portfolio/creative_desgin 5.png')}}" alt="image">--}}
+{{--                            <div class="project-content-overlay">--}}
+
+{{--                                <h3>Graphics Design</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+
+
+{{--                    --}}{{--  portfolio Item --}}
+{{--                    <div class="col-lg-4 col-md-6 project-grid-item all data">--}}
+
+{{--                        <div class="project-item">--}}
+{{--                            <img src="{{asset('frontEnd/img/portfolio/data1.png')}}" alt="image">--}}
+{{--                            <div class="project-content-overlay">--}}
+
+{{--                                <h3>Data Entry</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+{{--    <!-- End Project Section -->--}}
 
 
 
     <!-- Start Counter Section -->
+
+{{--    Portfolio Section End--}}
+
+
     <section class="counter-area section-padding">
         <div class="container">
             <div class="row">
@@ -372,7 +379,7 @@
                     <div class="single-counter">
                         <div class="counter-contents">
                             <h2>
-                                <span class="counter-number">7</span>
+                                <span class="counter-number">8</span>
                                 <span>+</span>
                             </h2>
                             <h3 class="counter-heading">Years Helping Business</h3>
@@ -383,7 +390,7 @@
                     <div class="single-counter">
                         <div class="counter-contents">
                             <h2>
-                                <span class="counter-number">10</span>
+                                <span class="counter-number">25</span>
                                 <span>+</span>
                             </h2>
                             <h3 class="counter-heading">Employees</h3>
@@ -431,11 +438,11 @@
                         <h6>Why Choose Us?</h6>
                         <h2>Safeguard your brand with  IT Solutions</h2>
                         <ul class="features-list">
-                            <li> <span>Remote It Assistance</span></li>
+                            <li> <span>Remote IT Assistance</span></li>
                             <li> <span>Solving IT Problems</span></li>
                             <li> <span>Customized Software</span></li>
                             <li> <span>Information Security</span></li>
-                            <li> <span>7+ Years Experience </span></li>
+                            <li> <span>8+ Years Experience </span></li>
                             <li> <span>24/7 Customer Support</span></li>
                         </ul>
                     </div>
@@ -463,7 +470,7 @@
 
                         </p>
                         <div class="hire-btn">
-                            <a class="default-btn" href="mailto:info@virtualsheba.com">Email Now<span></span></a>
+                            <a class="default-btn" href="mailto:info@xcellencetechnology.com">Email Now<span></span></a>
                             <a class="default-btn-one" href="{{ route('contact') }}">Contact Us<span></span></a>
                         </div>
                     </div>
@@ -479,72 +486,128 @@
     <section class="pricing-section section-padding">
         <div class="container">
             <div class="section-title">
-                <h6>Pricing</h6>
-                <h2> Our Packages</h2>
+                <h6>Service</h6>
+                <h2> Our Services</h2>
             </div>
 
         <div class="demo">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="pricingTable red">
-                        <h3 class="title">OFFER</h3>
-                        <div class="price-value">
-                            <span class="currency">৳</span>
-                            <span class="amount">2000 <h6><strike>৳ 5000</strike></h6>   </span>
+             <div class="container">
+                <div class="row justify-content-md-center">
 
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="pricingTable green">
+                            <h3 class="title">Virtual Assistant</h3>
+                            <div class="price-value">
+                                <span class="currency">$</span>
+                                <span class="amount">5 <small class="small_text">/per hour</small>    </span>
+                                <p>*Starting price </p>
+
+{{--                                <span class="currency">Please Contact</span>--}}
+                            </div>
+
+ <ul class="pricing-content ">
+
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Social Media Management </span>
+                                </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Data Entry </span>
+                                </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> E-Commerce VA Services </span>
+                                </li>
+
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Email Management </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Administrative Support </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> 24/7 Hotline Service  </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Document Production </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Web Research & Scrap </span>
+                                </li>
+
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> SMS Marketing </span>
+                                </li>
+                                
+                                 <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Content Writing </span>
+                                </li>
+                                
+                                 <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> E-File Organization </span>
+                                </li>
+                                
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Cold Calling Virtual Assistants </span>
+                                </li>
+
+                            </ul>
+
+                            <a href="{{ route('virtual') }}" class="pricingTable-signup">Read More</a>
                         </div>
-
-                        <p class="pricing-content"> <b>Perfect for portfolio or personal website for you online identities.  </b>   </p>
-
-                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="pricingTable green">
-                        <h3 class="title">STANDARD</h3>
-                        <div class="price-value">
-                            <span class="currency">৳</span>
-                            <span class="amount">3000 <h6><strike>৳ 6000</strike></h6>   </span>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="pricingTable blue">
+                            <h3 class="title">Web Development</h3>
+                            <div class="price-value">
 
+                                <span class="currency">$</span>
+                                <span class="amount">200 </span>
+                                <p>*Starting price </p>
+
+
+{{--                                <span class="currency">Please Contact</span>--}}
+
+
+                            </div>
+                         <ul class="pricing-content">
+
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Front End Development </span>
+                                </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> WordPress </span>
+                                </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> WooCommerces </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Ecommerce Development </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Custom PHP Development </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> PSD to HTML </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Web Application Development  </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Laravel </span>
+                                </li>
+
+
+                            </ul>
+
+                            <a href="{{ route('webDev') }}" class="pricingTable-signup">Read More </a>
                         </div>
-
-                        <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence.  </b>   </p>
-
-                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More</a>
                     </div>
-                </div>
 
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="pricingTable pink">
-                        <h3 class="title">BUSINESS</h3>
-                        <div class="price-value">
-                            <span class="currency">৳</span>
-                            <span class="amount">6000 <h6><strike>৳ 12000</strike></h6>   </span>
-
-                        </div>
-                        <p class="pricing-content"><b>  Best fit for established business or organizations who has a lot to offer and share. </b> </p>
-
-                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="pricingTable blue">
-                        <h3 class="title">PREMIUM</h3>
-                        <div class="price-value">
-                            <span class="currency">Please Contact</span>
-
-
-                        </div>
-                       <p class="pricing-content"> <b>  Start your business online </b> </p>
-                        <a href="{{ route('pricing') }}" class="pricingTable-signup">Read More </a>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
         </div>
     </section>

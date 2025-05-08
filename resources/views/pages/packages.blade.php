@@ -26,12 +26,54 @@
     <!-- End Page Title Area -->
 
 
+
+
+
     <!-- Start About Section -->
     <section class="about-area section-padding">
 
         <div class="section-title ">
-            <h6>Pricing</h6>
-            <h2>Our Packages</h2>
+
+            <h2>Virtual Assitant</h2>
+
+        </div>
+
+        <div class="demo">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="pricingTable green">
+                            <h3 class="title">OFFER</h3>
+                            <div class="price-value">
+                                <span class="currency">$</span>
+                                <span class="amount">2 <small class="small_text">/per hour</small>    </span>
+
+                                {{--                                <span class="currency">Please Contact</span>--}}
+                            </div>
+
+                            <p class="pricing-content"> <b>Perfect for start up business who wants to build an online presence.  </b>   </p>
+
+                            <a href="{{ route('orderForm') }}" class="pricingTable-signup">Order Now</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End About Section -->
+
+
+    <!-- Start About Section -->
+    <section class="about-area section-padding">
+
+        <div class="section-title ">
+
+            <h2>Web Development</h2>
 
         </div>
 
@@ -40,51 +82,53 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="pricingTable red">
-                            <h3 class="title">OFFER</h3>
+                            <h3 class="title">Basic</h3>
                             <div class="price-value">
-                                <span class="currency">৳</span>
-                                <span class="amount">2000 <h6><strike>৳ 5000</strike></h6>   </span>
+                                <span class="currency">$</span>
+                                <span class="amount">50 <h6><strike>$ 100</strike></h6>   </span>
 
                             </div>
                             <ul class="pricing-content ">
 
-                                    <li>
-                                        <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span>  1 Pages  </span>
-                                    </li>
-                                    <li >
-                                         <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Logo </span>
-                                    </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span>  1 Pages  </span>
+                                </li>
 
 
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Domain-1st Year Free </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Hosting Free For 1st Year </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Email  </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Contact Form </span>
-                                    </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Logo </span>
+                                </li>
 
 
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Mobile Responsive </span>
-                                    </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Domain-1st Year Free </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Hosting Free For 1st Year </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Email  </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Contact Form </span>
+                                </li>
 
-                                    <li>
-                                      <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Delivery in 2 Days </span>
-                                    </li>
+
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Mobile Responsive </span>
+                                </li>
+
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> Delivery in 2 Days </span>
+                                </li>
 
 
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Month Free Support </span>
-                                    </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle offer_icon"></i> <span> 1 Month Free Support </span>
+                                </li>
                             </ul>
 
-                             <a href="{{ route('offer') }}" class="pricingTable-signup">Order Now</a>
+                            <a href="{{ route('orderForm') }}" class="pricingTable-signup">Order Now</a>
 
                             <p>T&C Apply</p>
                         </div>
@@ -93,63 +137,58 @@
                         <div class="pricingTable green">
                             <h3 class="title">STANDARD</h3>
                             <div class="price-value">
-                                <span class="currency">৳ </span>
-                                <span class="amount">3000 <h6><strike>৳ 6000</strike></h6>   </span>
+                                <span class="currency">$ </span>
+                                <span class="amount">99 <h6><strike>$ 200</strike></h6>   </span>
 
                             </div>
                             <ul class="pricing-content ">
 
-                                    <li>
-                                        <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Upto 2 Pages </span>
-                                    </li>
-                                    <li >
-                                         <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Logo </span>
-                                    </li>
-                                    <li >
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Slider / Banner </span>
-                                    </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Upto 2 Pages </span>
+                                </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Logo </span>
+                                </li>
+                                <li >
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Slider / Banner </span>
+                                </li>
 
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Domain-1st Year Free </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Hosting Free For 1st Year </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> 1 Email  </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> 1 Contact Form </span>
-                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Free SSL </span>
-                                    </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Domain-1st Year Free </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Hosting Free For 1st Year </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> 1 Email  </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> 1 Contact Form </span>
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Free SSL </span>
+                                </li>
 
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Mobile Responsive </span>
-                                    </li>
+                                <li>
+                                    <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Mobile Responsive </span>
+                                </li>
 
-                                    <li>
-                                      <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> Delivery in 3 Days </span>
-                                    </li>
-
-
-                                    <li>
-                                       <i aria-hidden="true" class="fas fa-check-circle standard_icon"></i> <span> 3 Month Free Support </span>
-                                    </li>
                             </ul>
 
-                             <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now</a>
+                            <a href="{{ route('orderForm') }}" class="pricingTable-signup">Order Now</a>
 
                             <p>T&C Apply</p>
                         </div>
                     </div>
+
+
+
                     <div class="col-md-3 col-sm-6">
                         <div class="pricingTable pink">
                             <h3 class="title">BUSINESS</h3>
                             <div class="price-value">
-                                <span class="currency">৳</span>
-                                <span class="amount">6000 <h6><strike>৳ 12000</strike></h6>   </span>
+                                <span class="currency">$</span>
+                                <span class="amount">150 <h6><strike>$ 300</strike></h6>   </span>
 
                             </div>
                             <ul class="pricing-content">
@@ -182,112 +221,57 @@
                                     <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Free SSL </span>
                                 </li>
 
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Gallery Section </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Chat Feature </span>
-                                </li>
 
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Social Profile Link </span>
-                                </li>
-
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Click to Call/Email </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Mobile Responsive </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Login Details Will Be Given </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Delivery in 7 Days </span>
-                                </li>
-
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> 6 Month Free Support  </span>
-                                </li>
                             </ul>
 
-                            <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now </a>
+                            <a href="{{ route('orderForm') }}" class="pricingTable-signup">Order Now </a>
 
                             <p>T&C Apply</p>
                         </div>
                     </div>
+
                     <div class="col-md-3 col-sm-6">
                         <div class="pricingTable blue">
                             <h3 class="title">PREMIUM</h3>
                             <div class="price-value">
-                                <span class="currency">Please Contact</span>
+                                <span class="currency">Please Cntact</span>
 
 
                             </div>
                             <ul class="pricing-content">
 
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Upto 10 Pages </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Upto 5 Pages </span>
                                 </li>
                                 <li >
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Logo </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Logo </span>
                                 </li>
                                 <li >
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Slider /Banner </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Slider / Banner </span>
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Dynamic Website </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Dynamic Website </span>
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Domain-1st Year Free </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Domain-1st Year Free </span>
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Hosting Free For 1st Year </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Hosting Free For 1st Year </span>
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> 1 Email  </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> 1 Email  </span>
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> 1 Contact Form </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> 1 Contact Form </span>
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Free SSL </span>
+                                    <i aria-hidden="true" class="fas fa-check-circle business_icon"></i> <span> Free SSL </span>
                                 </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Products Upload </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Gallery Section </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span>  WhatsApp / Messenger Chat Integration  </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Payment Gateway </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Social Profile Link </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Facebook Page Creation </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Click to Call/Email </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Mobile Responsive </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span>  Revisions – 2 </span>
-                                </li>
-                                <li>
-                                    <i aria-hidden="true" class="fas fa-check-circle premium_icon"></i> <span> Call/Email/Chat Support </span>
-                                </li>
+
 
                             </ul>
 
-
-                            <a href="{{ route('getItSupport') }}" class="pricingTable-signup">Order Now</a>
+                            <a href="{{ route('orderForm') }}" class="pricingTable-signup">Order Now </a>
 
                             <p>T&C Apply</p>
                         </div>
