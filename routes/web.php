@@ -22,6 +22,9 @@ Route::get('/',[WelcomeController::class, 'index'])->name('welcomePage');
 Route::get('/about-us',[WelcomeController::class, 'aboutUs'])->name('aboutUs');
 Route::get('/contact',[WelcomeController::class, 'contact'])->name('contact');
 
+Route::get('/privacy-policy',[WelcomeController::class, 'policy'])->name('policy');
+Route::get('/terms-condition',[WelcomeController::class, 'terms'])->name('terms');
+
 //Services Route
 Route::get('/services/web_development',[ServiceController::class, 'webDev'])->name('webDev');
 Route::get('/services/app_development',[ServiceController::class, 'appDev'])->name('appDev');

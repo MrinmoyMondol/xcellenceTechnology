@@ -143,9 +143,9 @@
             </div>
             <div class="col-lg-6 col-md-6">
                 <ul>
-                    <li> <a href="">Terms & Conditions</a>
+                    <li> <a href="{{ route('terms') }}">Terms & Conditions</a>
                     </li>
-                    <li> <a href="">Privacy Policy</a>
+                    <li> <a href="{{ route('policy') }}">Privacy Policy</a>
                     </li>
                 </ul>
             </div>

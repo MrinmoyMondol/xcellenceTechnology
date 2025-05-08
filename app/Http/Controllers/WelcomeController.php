@@ -37,6 +37,13 @@ class WelcomeController extends Controller
         return view('pages.packages');
     }
 
+    //Terms & Condition Function
+    public function terms(){
+        return view('pages.terms');
+    }
 
-
+    //Privacy Policy Function
+    public function policy(){
+        return view('pages.policy');
+    }
 }
